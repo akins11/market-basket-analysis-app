@@ -1,0 +1,248 @@
+.header-div {
+    text-align: center;
+    background-color: #551A8B;
+    padding: 1%;
+    color: rgb(255, 225, 255);
+}
+
+.home-col{
+    height: 80%;
+    padding-top: 20px;
+    /*background-color: red;*/
+}
+
+.home-col-div {
+    border: 1px solid #BA55D3;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 5px 10px 8px #9400D3;
+    border-radius: 8px;
+    background-color: #B23AEE;
+    color: rgb(255, 255, 255);
+}
+
+.modal-link-style {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(238, 220, 130);
+}
+
+.modal-style {
+    background-color: #B23AEE;
+    color: rgb(255, 255, 255);
+}
+
+.home-container {
+    height: 100vh;
+}
+
+.board-color {
+    background-color: #9400D3;
+}
+
+.board-gradient-color {
+    background-image: linear-gradient(to bottom right, #9400D3, #68228B);
+}
+
+body {
+   background-color: #9400D3;
+   /*margin: 0;*/
+}
+
+.dash-row-header {
+    padding-top: 10px;
+    height: 10vh;
+}
+
+.dash-row-pt {
+    height: 45vh;
+}
+
+.dash-container {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dash-kpi-box {
+    border: 1px solid #9932CC;
+    box-shadow: 2px 3px 3px #9400D3;
+    border-radius: 5px;
+    background-color: #B23AEE;
+    color: rgb(255, 255, 255);
+}
+
+.dash-control {
+    float: right;
+    width: 45%;
+    text-align: left;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    border: 1px solid #9932CC;
+    box-shadow: -2px 3px 3px #9400D3;
+    border-radius: 4px;
+    background-color: #B23AEE;
+    color: rgb(255, 255, 255);
+}
+
+
+.dash-control-mw {
+    float: right;
+    width: 22%;
+    text-align: left;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    border: 1px solid #9932CC;
+    box-shadow: -2px 3px 3px #9400D3;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+}
+
+
+.dash-display-wide {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.dash-display-box {
+    border: 1px solid #9932CC;
+    box-shadow: 2px 3px 3px #9400D3;
+    border-radius: 5px;
+    background-color: #B23AEE;
+    color: rgb(0, 0, 0);
+}
+
+
+/* changes the display background-color of the dropdown*/
+/*.Select-control {
+    background-color: #FFE1FF !important;
+}
+
+.Select-menu-outer {
+    background-color: #FFE1FF;
+}
+*/
+.Select-control {
+    background-color: #FFE1FF !important;
+}
+
+
+.VirtualizedSelectOption {
+    background-color: #FFE1FF;
+    color: rgb(0, 0, 0);
+}
+
+
+.VirtualizedSelectFocusedOption {
+    background-color: #FFE1FF;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.dash-control-bc {
+    background-color: #FFE1FF;
+}
+
+.stack-top {
+    z-index: 9;
+    margin: 1px;
+}
+
+.float-content {
+    float: right;
+    /*padding-bottom: 30px;*/
+}
+
+.position-s-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*.mba-sidebar {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 16rem;
+    padding: 2rem, 1rem;
+    background-color: #f8f9fa;
+}*/
+
+.label-color {
+  color: rgb(255, 255, 255);
+}
+/*.mba-main-content {
+    margine-left: 18rem;
+    margine-right: 2rem;
+    padding: 2rem 1rem;
+}
+*/
+.mba-main-content {
+    border-color: #B452CD;
+}
+
+.mba-sidebar {
+    border: 1px solid #B452CD;
+    padding: 3px
+}
+
+.container-top-padding {
+    padding-top: 8px
+}
+
+.align-text-left {
+    text-align: left;
+}
+.align-text-center {
+    text-align: center;
+}
+
+.acd-bg {
+  background-color: #9400D3;
+  color: rgb(255, 255, 255);
+}
+
+.content-padding {
+    padding-left: 4px;
+    padding-right: 4px;
+    border-color: #B452CD;
+}
+
+.accordion-button {
+    text-align: left;
+    display: block;
+    background-color: #BA55D3;
+    color: rgb(255, 255, 255);
+}
+
+.accordion-button:not(.collapsed) {
+    text-align: center;
+    background-color: #E066FF;
+    color: rgb(255, 255, 255);
+}
+
+.tab-inactive-style {
+    background-color: #BA55D3;
+    border-button: 1px solid #FFBBFF;
+}
+.tab-active-style {
+    background-clor: #FFBBFF;
+    border-button: 1px solid #FFBBFF;
+    text-transform: uppercase;
+}
+
+.label-inactive-style {
+    color: rgb(255, 255, 255);
+}
+.label-active-style {
+    color: #8A8A8A;
+}
+
+.description-div {
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
