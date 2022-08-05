@@ -229,7 +229,7 @@ def create_dataframe(df, page_size = 10, align_text = "left", precision = 2, inc
     else:
         cell_conditional = []
 
-    table_style = {"overflowX": "auto", "overflowY": "auto", } # "backgroudColor": "#9400D3"
+    table_style = {"overflowX": "auto", "overflowY": "auto", "border": "thin solid #9D4EDD"} # "backgroudColor": "#9400D3"
     if tbl_height is not None:
         table_style["height"] = tbl_height
     if tbl_width is not None:
@@ -240,10 +240,10 @@ def create_dataframe(df, page_size = 10, align_text = "left", precision = 2, inc
     else:
         table_colors = [
             # Header
-            {"backgroundColor": "#551A8B", "color": "#FFFFFF", "fontWeight": "blue", 'borderBottom': '1px solid #9A32CD'},
+            {"backgroundColor": "#10003B", "color": "#FFFFFF", "fontWeight": "blue", 'borderBottom': '1px solid #9A32CD'},
             # data condtional style
-            {"if": {"row_index": "even"}, "backgroundColor": "#B23AEE", "color": "#FFFFFF"},
-            {"if": {"row_index": "odd"}, "backgroundColor": "#BF3EFF", "color": "#FFFFFF"},
+            {"if": {"row_index": "even"}, "backgroundColor": "#5A189A", "color": "#FFFFFF"},
+            {"if": {"row_index": "odd"}, "backgroundColor": "#3C096C", "color": "#FFFFFF"},
         ]
 
     return html.Div(
@@ -263,7 +263,12 @@ def create_dataframe(df, page_size = 10, align_text = "left", precision = 2, inc
                 page_size = page_size,
                 style_table = table_style,
                 fixed_rows = {"headers": True},
-                style_cell = {"minWidth": 100, "maxWidth": 700, "width": 100, "textAlign": align_text, 'textOverflow': 'ellipsis'},
+                style_cell = {"minWidth": 100,
+                              "maxWidth": 700,
+                              "width": 100,
+                              "textAlign": align_text,
+                              'textOverflow': 'ellipsis',
+                              "border": "thin solid #9D4EDD"},
                 style_header = table_colors[0],
                 style_data_conditional = [
                             table_colors[1],
@@ -383,7 +388,6 @@ def filter_div(id_type): # type = 'jq', 'gl'
                                 ],
                                 label = "Add Query",
                                 direction = "up"
-                                # color =
                             ),
 
                             html.Div(id = f"{id_type}_query_dynamic_divs", children = []),

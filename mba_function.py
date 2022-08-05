@@ -5,10 +5,21 @@ import warnings
 from plotly.express import bar, scatter
 from mlxtend.frequent_patterns import apriori, association_rules
 
-seq_selected_color = "#FFD700"
-plot_bg_color = "#B23AEE"
+seq_selected_color = "#FF9E00"
+plot_bg_color = "#3C096C"
 ft_color = "white"
+spinner_color = "#E0AAFF"
 
+pal = {
+    "russian_violet": "#10003B",
+    "russian_violet2": "#240046",
+    "persian_indigo": "#3C096C",
+    "purple":         "#5A189A",
+    "french_violet":  "#7B2CBF",
+    "amethyst":       "#9D4EDD",
+    "heliotrope":     "#C77DFF",
+    "mauve":          "#E0AAFF"
+}
 
 def match_arg(x, valid_arg):
     """
