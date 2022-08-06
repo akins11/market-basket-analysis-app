@@ -5,6 +5,7 @@ import warnings
 from plotly.express import bar, scatter
 from mlxtend.frequent_patterns import apriori, association_rules
 
+
 seq_selected_color = "#FF9E00"
 plot_bg_color = "#3C096C"
 ft_color = "white"
