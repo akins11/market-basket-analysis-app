@@ -5,6 +5,7 @@ from string import punctuation, ascii_letters
 
 from pandas.api.types import is_numeric_dtype
 
+
 # Component Functions ==================================================================================================
 def dcc_dropdown(id, searchable = True, multiple = False):
     """
