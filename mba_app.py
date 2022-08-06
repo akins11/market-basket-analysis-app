@@ -1521,5 +1521,6 @@ def create_likely_purchase_products(jsonified_data, rule_jsonified_data, filter_
             return comp_fun.create_dataframe(df=likely_product_output, page_size=20, precision=1)
 
 
+
 if __name__ == "__main__":
     app.run_server()
